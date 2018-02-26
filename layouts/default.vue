@@ -4,8 +4,10 @@
 
 <style lang="scss">
 html {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  // font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+  //   "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",
+  //   sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -22,8 +24,19 @@ html {
   margin: 0;
 }
 
-html, body, #__nuxt, #__layout {
+html,
+body,
+#__nuxt,
+#__layout {
   width: 100%;
   height: 100%;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
 }
 </style>

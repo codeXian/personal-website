@@ -20,7 +20,7 @@ module.exports = {
   // Build configuration
   build: {
     // vendor
-    vendor: ['typed.js'],
+    vendor: ['typed.js', '~/assets/js/iconfont.js'],
     // Run ESLint on save
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
